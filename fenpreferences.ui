@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FenPreferences</class>
+ <widget class="QWidget" name="FenPreferences">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>335</width>
+    <height>244</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Préférences</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icones/notes.png</normaloff>icones/notes.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="2" column="1" colspan="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>202</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="minimumSize">
+      <size>
+       <width>230</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="title">
+      <string>Communications</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="1">
+       <widget class="QSpinBox" name="sp_PortGPS">
+        <property name="maximum">
+         <number>99999</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Port UDP GPS (RMC)</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QPushButton" name="btn_Annuler">
+     <property name="text">
+      <string>Annuler</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2" colspan="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0" colspan="4">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Réglages TrackAmap</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="le_Id"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Couleur de la trace:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Identifiant:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="cb_Color">
+        <item>
+         <property name="text">
+          <string>red</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>green</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>yellow</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>blue</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>lavender</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>purple</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cyan</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>magenta</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>lime</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>orange</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>teal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>brown</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>beige</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>maroon</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>mint</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>olive</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>apricot</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>navy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>grey</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>white</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>fuschia</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pink</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>black</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Email destination:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="le_Email"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="btn_Valider">
+     <property name="text">
+      <string>Valider</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
